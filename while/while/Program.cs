@@ -117,21 +117,90 @@ namespace @while
             #endregion
 
             #region taban hesaplama
-            int sayi = Convert.ToInt32(Console.ReadLine());
+            //int sayi = Convert.ToInt32(Console.ReadLine());
 
-            int sonuc = 0;
-            int basamak = 1;
-            while (sayi>0)
-            {
-                sonuc += (sayi % 2) * basamak;
-                basamak *= 10;
-                sayi /= 2;
+            //int sonuc = 0;
+            //int basamak = 1;
+            //while (sayi>0)
+            //{
+            //    sonuc += (sayi % 2) * basamak;
+            //    basamak *= 10;
+            //    sayi /= 2;
 
-            }
-            Console.WriteLine(sonuc);
-            Console.ReadKey();
+            //}
+            //Console.WriteLine(sonuc);
+            //Console.ReadKey();
             #endregion
-            
+
+            #region tahmin etme vol.2
+            //Console.WriteLine("[1-100] arasında bir tahmin gir");
+            //Random rnd = new Random();
+            //int sayi = rnd.Next(1, 11);
+            //int tahmin, counter = 0;
+
+            //while (true)
+            //{
+            //    counter++;
+            //    Console.Write("Tahmin Et: ");
+            //    tahmin = Convert.ToInt32(Console.ReadLine());
+
+            //    if (tahmin < sayi)
+            //    {
+            //        Console.WriteLine("Daha Büyük");
+            //    }
+            //    else if (tahmin > sayi)
+            //    {
+            //        Console.WriteLine("Daha Küçük");
+            //    }
+            //    else
+            //    {
+            //        break;
+            //    }
+
+            //}
+            //Console.WriteLine("\nTebrikler... {0}. adımda bildin", counter);
+            //Console.ReadKey();
+            #endregion
+
+
+            #region tek sayılar
+                        
+            //long toplam = 0, carpim = 1; /*etkisiz eleman çarpımda 1 toplamda sıfır olduğu için*/
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //string secim = Console.ReadLine();
+
+            //int counter = 1;
+            //while (counter <= n)
+            //{
+            //    if (counter % 2 == 1)
+            //    {
+            //        toplam += counter;
+            //        carpim *= counter;
+                    
+            //    }
+            //    counter++;
+
+            //}
+
+            //if (secim =="topla")
+            //{
+            //    Console.WriteLine(toplam);
+
+            //}
+            //else if (secim =="carp")
+            //{
+            //    Console.WriteLine(carpim);
+            //}
+            //else
+            //{
+            //    Console.WriteLine(secim + "Nedir?");
+            //}
+            //Console.ReadKey();
+
+            #endregion
+
+
+
         }
     }
 }
