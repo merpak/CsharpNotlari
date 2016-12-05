@@ -42,7 +42,40 @@ namespace arrays
             //}
 
 
+            //Random random = new Random();
+            //int pozitif = 0, negatif = 0, sifir = 0;
 
+            //Console.WriteLine("Kaç Sayı ?");
+            //int size = Convert.ToInt32(Console.ReadLine());
+            //int[] numbers = new int[size];
+            //Console.Clear();
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    numbers[i] = random.Next(-100, 101);
+            //}
+            //foreach (var sayi in numbers)
+            //{
+            //    Console.WriteLine(sayi);
+            //    if (sayi > 0)
+            //    {
+            //        pozitif++;
+            //    }
+            //    else if (sayi < 0)
+            //    {
+            //        negatif++;
+
+            //    }
+            //    else
+            //    {
+            //        sifir++;
+            //    }
+            //}
+            //Console.WriteLine();
+            //Console.WriteLine("{0} Tane Pozitif Sayi", pozitif);
+            //Console.WriteLine("{0} Tane Negatif Sayi", negatif);
+            //Console.WriteLine("{0} Tane Sıfır Var", sifir);
+
+            //Console.ReadKey();
         }
 
 
