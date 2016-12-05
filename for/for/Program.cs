@@ -83,7 +83,13 @@ namespace @for
             //Console.ReadKey();
             #endregion
 
+            #region kare yapma
+            //for (int i = 0; i < length; i++)
+            //{
 
+            //}
+
+            #endregion
         }
     }
 }
