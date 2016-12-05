@@ -76,8 +76,15 @@ namespace arrays
             //Console.WriteLine("{0} Tane Sıfır Var", sifir);
 
             //Console.ReadKey();
+
+            string[] gunler = new string[] { "Pazertesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi", "Pazar" };
+
+            foreach (var gun in gunler)
+            {
+                Console.WriteLine(gun);
+            }
+
         }
-
-
+        
     }
 }
