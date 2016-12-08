@@ -33,13 +33,14 @@ namespace ColorBox
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            for (int i = 0; i < 20; i++)
+            for (int i = 1; i < 20; i++)
             {
                 Button btn = new Button();
                 btn.Width = 30;
                 btn.Height = 30;
                 btn.BackColor = RasgeleRenkOlustur();
                 btn.Left = btn.Width * i;
+                btn.Top = btn.Height;
                 btn.Click += ButtonClick;
                 this.Controls.Add(btn);
             }
