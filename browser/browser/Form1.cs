@@ -22,5 +22,16 @@ namespace browser
             webBrowser1.Url = new Uri(textBox1.Text);
 
         }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            DateTime DTarihi = dateTimePicker1.Value;
+            DateTime Simdi = DateTime.Now;
+
+            int yas = Simdi.Year - DTarihi.Year;
+
+            txtBoxYas.Text = yas.ToString();
+
+        }
     }
 }
