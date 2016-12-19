@@ -17,7 +17,7 @@ namespace zarAtma
             InitializeComponent();
         }
 
-
+        int tur = 1;
 
         private void ZarAt()
         {
@@ -29,15 +29,29 @@ namespace zarAtma
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+
+        private void Form1_MouseClick(object sender, MouseEventArgs e)
         {
             ZarAt();
-
+            timer1.Start();
+            tur = 1;
+            
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void timer1_Tick(object sender, EventArgs e)
         {
-            ZarAt();
+            if (tur == 15)
+            {
+                timer1.Start();
+            }
+            else
+            {
+                ZarAt();
+            }
+
+            timer1.Stop();
+
+            tur++;
         }
     }
 }
