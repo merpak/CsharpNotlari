@@ -8,5 +8,6 @@ namespace İnsanKaynaklari_OOP
 {
     class Calisan
     {
+        public
     }
 }
